@@ -32,8 +32,8 @@ Language: TypeScript
 Testing Framework: Playwright (v1.60+)
 Engine: Node.js (LTS)
 CI/CD: GitHub Actions
-**
-Continuous Integration (GitHub Actions)**
+
+**Continuous Integration (GitHub Actions)**
 This project includes a robust pipeline configured in .github/workflows/playwright.yml.
 Automatic Diagnostics: On every push to the main branch, the pipeline spins up an isolated Ubuntu container running Microsoft's official Playwright runtime.
 Artifact Preservation: Whether tests pass or fail, the full HTML test suite diagnostics and reports are compressed and made available for review.
