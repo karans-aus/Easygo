@@ -1,0 +1,413 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e4]:
+    - generic:
+      - banner:
+        - navigation "Main navigation":
+          - generic [ref=e5]:
+            - link "Easygo" [ref=e6] [cursor=pointer]:
+              - /url: /
+              - img "Easygo logo" [ref=e7]
+            - button "Open menu" [ref=e9] [cursor=pointer]:
+              - img "Menu Icon" [ref=e11]
+          - generic [ref=e13]:
+            - button "Open search" [ref=e14] [cursor=pointer]:
+              - img "Search Icon" [ref=e16]
+            - button "Open saved jobs" [ref=e20] [cursor=pointer]:
+              - img "Heart Icon" [ref=e23]
+            - button "Join us" [ref=e27] [cursor=pointer]
+    - main [ref=e29]:
+      - generic [ref=e31]:
+        - generic "Easygo showreel" [ref=e34]:
+          - region "video player" [ref=e36]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: We’re building the future of fearless tech, servicing 160M+ users across Stake, KICK, and Easygo Games.
+                - generic:
+                  - link "Browse Roles" [ref=e40] [cursor=pointer]:
+                    - /url: /careers
+                  - link "Our Brands" [ref=e41] [cursor=pointer]:
+                    - /url: /company
+              - generic:
+                - heading "Fear Less Do More" [level=1]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Fear"
+                      - generic:
+                        - generic:
+                          - img "Less"
+                    - generic:
+                      - generic:
+                        - img "Do"
+                      - generic:
+                        - generic:
+                          - img "More"
+        - button "Play Showreel" [ref=e42]
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - img "ASCII Flame"
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - paragraph [ref=e59]: Who we are
+              - heading "We connect cultures through bold digital experiences. To go from beta to better tech should be fearless, not formulaic." [level=2] [ref=e60]:
+                - generic [ref=e61]: We
+                - generic [ref=e62]: connect
+                - generic [ref=e63]: cultures
+                - generic [ref=e64]: through
+                - generic [ref=e65]: bold
+                - generic [ref=e66]: digital
+                - generic [ref=e67]: experiences.
+                - generic [ref=e68]: To
+                - generic [ref=e69]: go
+                - generic [ref=e70]: from
+                - generic [ref=e71]: beta
+                - generic [ref=e72]: to
+                - generic [ref=e73]: better
+                - generic [ref=e74]: tech
+                - generic [ref=e75]: should
+                - generic [ref=e76]: be
+                - generic [ref=e77]: fearless,
+                - generic [ref=e78]: not
+                - generic [ref=e79]: formulaic.
+            - generic [ref=e81]:
+              - paragraph [ref=e82]: Easygo is the force behind brands with global reach, through products and platforms people actually choose to experience.
+              - paragraph [ref=e83]: We do what’s exciting, not expected. That means big ideas, tight execution, and teams that are trusted to ship, learn, and ship again.
+        - generic [ref=e88]:
+          - img [ref=e90]
+          - img [ref=e92]
+          - img [ref=e94]
+          - img [ref=e96]
+          - img "Fearless" [ref=e98]
+      - generic [ref=e112]:
+        - paragraph [ref=e126]: Our Products
+        - article [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - heading "Stake" [level=2] [ref=e131]
+              - paragraph [ref=e132]: Online Casino
+            - generic [ref=e133]:
+              - paragraph [ref=e134]: The world’s most popular online casino. 20+ million active users. Billions in bets a year.
+              - img "Stake logo" [ref=e136]
+            - region "video player" [ref=e141]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+            - generic [ref=e147]:
+              - list [ref=e148]:
+                - listitem [ref=e149]:
+                  - generic [ref=e150]: $30B
+                  - generic [ref=e151]: Monthly wagers
+                - listitem [ref=e152]:
+                  - generic [ref=e153]: 75+
+                  - generic [ref=e154]: Currencies
+                - listitem [ref=e155]:
+                  - generic [ref=e156]: 60M+
+                  - generic [ref=e157]: Registered customers
+              - link "Learn more" [ref=e158] [cursor=pointer]:
+                - /url: /products/stake
+        - article [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - heading "Stake Engine" [level=2] [ref=e163]
+              - paragraph [ref=e164]: Stake Engine
+            - generic [ref=e165]:
+              - paragraph [ref=e166]: The path from idea to live game has never been faster or more accessible. Creators can now launch games directly on Stake & Stake US on their own.
+              - img "Stake Engine logo" [ref=e168]
+            - region "video player" [ref=e173]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+            - generic [ref=e179]:
+              - list [ref=e180]:
+                - listitem [ref=e181]:
+                  - generic [ref=e182]: "395"
+                  - generic [ref=e183]: Live publishers
+                - listitem [ref=e184]:
+                  - generic [ref=e185]: 1400+
+                  - generic [ref=e186]: Live games
+                - listitem [ref=e187]:
+                  - generic [ref=e188]: 17M
+                  - generic [ref=e189]: Daily bets
+              - link "Learn more" [ref=e190] [cursor=pointer]:
+                - /url: /products/stake-engine
+        - article [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - heading "KICK" [level=2] [ref=e195]
+              - paragraph [ref=e196]: Live streaming
+            - generic [ref=e197]:
+              - paragraph [ref=e198]: Other platforms take 50%. We take 5%. Creator-first livestreaming From Every Angle.
+              - img "Kick logo" [ref=e200]
+            - region "video player" [ref=e205]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+            - generic [ref=e211]:
+              - list [ref=e212]:
+                - listitem [ref=e213]:
+                  - generic [ref=e214]: 500M+
+                  - generic [ref=e215]: Monthly hours watched
+                - listitem [ref=e216]:
+                  - generic [ref=e217]: 46M+
+                  - generic [ref=e218]: Daily Chats
+                - listitem [ref=e219]:
+                  - generic [ref=e220]: 4.6M+
+                  - generic [ref=e221]: Peak live viewers
+              - link "Learn more" [ref=e222] [cursor=pointer]:
+                - /url: /products/kick
+        - article [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - heading "Easygo Games" [level=2] [ref=e227]
+              - paragraph [ref=e228]: Game Studio
+            - generic [ref=e229]:
+              - paragraph [ref=e230]: A multi-studio ecosystem delivering high-quality, high-velocity and highly creative game experiences.
+              - img "Easygo Games logo" [ref=e232]
+            - region "video player" [ref=e237]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+            - generic [ref=e243]:
+              - list [ref=e244]:
+                - listitem [ref=e245]:
+                  - generic [ref=e246]: Elite
+                  - generic [ref=e247]: Product Teams
+                - listitem [ref=e248]:
+                  - generic [ref=e249]: Fast
+                  - generic [ref=e250]: Iteration Cycles
+                - listitem [ref=e251]:
+                  - generic [ref=e252]: Strong
+                  - generic [ref=e253]: Ownership
+              - link "Learn more" [ref=e254] [cursor=pointer]:
+                - /url: /products/easygo-games
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - generic [ref=e257]:
+            - paragraph [ref=e270]: Partnerships
+            - heading "Strategic partnerships. World-class outcomes." [level=2] [ref=e271]:
+              - generic [ref=e272]: Strategic
+              - generic [ref=e273]: partnerships.
+              - generic [ref=e274]: World-class
+              - generic [ref=e275]: outcomes.
+          - generic [ref=e277]:
+            - paragraph [ref=e279]: We partner with the world’s biggest brands in sports and entertainment, cultivating experiences for our communities and the culture.
+            - paragraph [ref=e281]: Wherever you see our products featured, know that we’re all in.
+        - region [ref=e282]:
+          - group "Partners slide 1" [ref=e286]:
+            - link "Drake logo" [ref=e288] [cursor=pointer]:
+              - /url: https://drakerelated.com
+              - img "Drake logo" [ref=e290]
+            - link "UFC Logo" [ref=e292] [cursor=pointer]:
+              - /url: https://www.ufc.com/
+              - img "UFC Logo" [ref=e294]
+            - link "Everton Football Club" [ref=e296] [cursor=pointer]:
+              - /url: https://www.evertonfc.com
+              - img "Everton Football Club" [ref=e298]
+            - link "Team Vitality logo" [ref=e300] [cursor=pointer]:
+              - /url: https://vitality.gg/
+              - img "Team Vitality logo" [ref=e302]
+            - link "X Games logo" [ref=e304] [cursor=pointer]:
+              - /url: https://www.xgames.com/
+              - img "X Games logo" [ref=e306]
+            - link "Trinbago Knight Riders logo" [ref=e308] [cursor=pointer]:
+              - /url: https://www.tkriders.com/
+              - img "Trinbago Knight Riders logo" [ref=e310]
+          - generic [ref=e313]:
+            - button "Previous partners" [ref=e314] [cursor=pointer]:
+              - img "Chevron Left Icon" [ref=e315]
+            - button "Next partners" [ref=e318] [cursor=pointer]:
+              - img "Chevron Right Icon" [ref=e319]
+      - generic [ref=e325]:
+        - generic [ref=e326]:
+          - img "laptop on table tennis table" [ref=e328]
+          - img "office breakfast" [ref=e330]
+          - img "pool balls on table" [ref=e332]
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - paragraph [ref=e338]: "5"
+            - paragraph [ref=e340]: Industries we operate in, including iGaming, crypto, live streaming, and game development
+          - generic [ref=e342]:
+            - paragraph [ref=e343]: 800+
+            - paragraph [ref=e345]: Employees in our Melbourne office
+          - generic [ref=e347]:
+            - paragraph [ref=e348]: 400+
+            - paragraph [ref=e350]: Coffee's served daily by our in-house baristas
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: 2x
+            - paragraph [ref=e355]: $50k cars won by crew at our weekly Wheel Spin
+      - generic [ref=e356]:
+        - generic [ref=e357]:
+          - generic [ref=e358]:
+            - paragraph [ref=e371]: Our Values
+            - heading "Since 2016, we’ve focused on building experiences that are bold, fast and deeply engaging." [level=2] [ref=e372]:
+              - generic [ref=e373]: Since
+              - generic [ref=e374]: 2016,
+              - generic [ref=e375]: we’ve
+              - generic [ref=e376]: focused
+              - generic [ref=e377]: "on"
+              - generic [ref=e378]: building
+              - generic [ref=e379]: experiences
+              - generic [ref=e380]: that
+              - generic [ref=e381]: are
+              - generic [ref=e382]: bold,
+              - generic [ref=e383]: fast
+              - generic [ref=e384]: and
+              - generic [ref=e385]: deeply
+              - generic [ref=e386]: engaging.
+          - generic [ref=e388]:
+            - paragraph [ref=e389]: Easygo is the Australian powerhouse behind the most popular online casino, as well as pioneering a creator-first online streaming platform with over 160 million users.
+            - paragraph [ref=e390]: Fuelled by an ambitious mission, our culture of collaboration invites industry visionaries, innovators, and disruptors to drive the future of entertainment forward.
+        - list [ref=e391]:
+          - listitem [ref=e392]:
+            - generic [ref=e394]:
+              - img "Get it done" [ref=e396]
+              - generic [ref=e397]:
+                - paragraph [ref=e398]:
+                  - generic [ref=e399]: Get
+                  - generic [ref=e400]: it
+                  - generic [ref=e401]: Done
+                - paragraph [ref=e402]: We execute with biggest ideas and maximum impact. Moving fast and strategically is key to maintaining our leadership position.
+          - listitem [ref=e404]:
+            - generic [ref=e406]:
+              - img "Do it well" [ref=e408]
+              - generic [ref=e409]:
+                - paragraph [ref=e410]:
+                  - generic [ref=e411]: Do
+                  - generic [ref=e412]: it
+                  - generic [ref=e413]: well
+                - paragraph [ref=e414]: Quality is everything. We execute only the highest standards of work, keeping it simple for maximum efficiency and scale.
+          - listitem [ref=e416]:
+            - generic [ref=e418]:
+              - img "Play fair" [ref=e420]
+              - generic [ref=e421]:
+                - paragraph [ref=e422]:
+                  - generic [ref=e423]: Play
+                  - generic [ref=e424]: fair
+                - paragraph [ref=e425]: We empower our people to take strategic risks. Empowerment comes with accountability and standing by our commitments.
+    - contentinfo [ref=e428]:
+      - generic [ref=e429]:
+        - generic [ref=e430]:
+          - heading "Give us ambition. Get the Easygo edge." [level=2] [ref=e431]:
+            - generic [ref=e432]: Give
+            - generic [ref=e433]: us
+            - generic [ref=e434]: ambition.
+            - generic [ref=e435]: Get
+            - generic [ref=e436]: the
+            - generic [ref=e437]: Easygo
+            - generic [ref=e438]: edge.
+          - link "Browse Roles" [ref=e439] [cursor=pointer]:
+            - /url: /careers
+        - navigation "Footer navigation" [ref=e440]:
+          - generic [ref=e441]:
+            - paragraph [ref=e442]: Products
+            - generic [ref=e443]:
+              - link "Stake" [ref=e444] [cursor=pointer]:
+                - /url: /products/stake
+              - link "Stake Engine" [ref=e445] [cursor=pointer]:
+                - /url: /products/stake-engine
+              - link "KICK" [ref=e446] [cursor=pointer]:
+                - /url: /products/kick
+              - link "Easygo Games" [ref=e447] [cursor=pointer]:
+                - /url: /products/easygo-games
+          - generic [ref=e448]:
+            - paragraph [ref=e449]: Connect
+            - generic [ref=e450]:
+              - link "Instagram (opens in new tab)" [ref=e451] [cursor=pointer]:
+                - /url: https://www.instagram.com/easygoau/
+                - generic [ref=e452]: Instagram
+                - img
+                - generic [ref=e453]: (opens in new tab)
+              - link "Linkedin (opens in new tab)" [ref=e454] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/easygo-au/
+                - generic [ref=e455]: Linkedin
+                - img
+                - generic [ref=e456]: (opens in new tab)
+      - img "Easygo - From Beta To Better" [ref=e458]
+      - generic [ref=e459]:
+        - generic [ref=e460]:
+          - paragraph [ref=e461]: © 2026 Easygo Group Holdings Pty Ltd
+          - paragraph [ref=e462]: Easygo Group Holdings Pty Ltd ("Easygo") does not endorse or promote any gaming activities in Australia. Figures, affiliations, and associations with various brands are solely for marketing and recruitment purposes ONLY. Easygo does not provide any warranties as to the accuracy of any information on the website. All users of the website independently verify all information and seek their own advice before using or relying on any information on the website.
+        - generic [ref=e463]:
+          - navigation "Legal links" [ref=e464]:
+            - link "Privacy Policy" [ref=e465] [cursor=pointer]:
+              - /url: /privacy
+            - button "Cookie Settings" [ref=e466]
+          - button "Scroll to top" [ref=e467] [cursor=pointer]:
+            - img "Chevron Up Icon" [ref=e468]
+    - region "We use cookies!" [ref=e470]:
+      - generic [ref=e471]:
+        - generic [ref=e472]:
+          - img "Cookie icon" [ref=e474]
+          - generic [ref=e475]:
+            - paragraph [ref=e476]: We use cookies!
+            - paragraph [ref=e477]: We use cookies to personalise your experience, analyse traffic, understand how features are used and assist with our marketing.
+        - generic [ref=e478]:
+          - button "Accept all" [ref=e479] [cursor=pointer]:
+            - generic [ref=e480]: Accept all
+          - button "Personalise" [ref=e481] [cursor=pointer]:
+            - generic [ref=e482]: Personalise
+  - status [ref=e483]
+  - dialog "Navigation menu":
+    - heading "Navigation menu" [level=2]
+    - paragraph: Main navigation links for Easygo.
+    - generic:
+      - generic:
+        - region:
+          - link "01 Company":
+            - /url: /company
+            - generic: "01"
+            - generic: Company
+          - generic:
+            - heading "02 Products Accordion Plus Icon" [level=3]:
+              - button "02 Products Accordion Plus Icon":
+                - generic: "02"
+                - generic: Products
+                - generic:
+                  - img "Accordion Plus Icon"
+          - generic:
+            - heading "03 Life at Easygo Accordion Plus Icon" [level=3]:
+              - button "03 Life at Easygo Accordion Plus Icon":
+                - generic: "03"
+                - generic: Life at Easygo
+                - generic:
+                  - img "Accordion Plus Icon"
+          - generic:
+            - heading "04 Careers Accordion Plus Icon" [level=3]:
+              - button "04 Careers Accordion Plus Icon":
+                - generic: "04"
+                - generic: Careers
+                - generic:
+                  - img "Accordion Plus Icon"
+        - generic:
+          - button "Join us"
+  - dialog "Search":
+    - heading "Search" [level=2]
+    - paragraph: Search roles, articles, and pages across Easygo.
+    - button "Close search":
+      - img "Cross Icon"
+    - search:
+      - generic: Search
+      - textbox "Search":
+        - /placeholder: Search Easygo
+  - dialog "Saved Roles":
+    - heading "Saved Roles" [level=2]
+    - paragraph: Your saved roles. Tap a role to open its details.
+    - paragraph: Saved Roles
+    - button "Close saved roles":
+      - img "Cross Icon"
