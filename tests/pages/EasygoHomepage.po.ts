@@ -18,12 +18,13 @@ export class EasygoHomepage {
   async goto() {
     await this.page.goto('https://easygo.io/');
     await this.page.waitForLoadState('domcontentloaded');
+    await this.page.getByRole('article').first().waitFor({ state: 'visible', timeout: 20000 });
   }
 
   async scrollToProductsSection() {
-    const heading = this.page.getByText('Our Products', { exact: true });
-    await expect(heading).toBeVisible({ timeout: 10000 });
-    await heading.scrollIntoViewIfNeeded();
+    const firstProductCard = this.page.getByRole('article').first();
+    await firstProductCard.scrollIntoViewIfNeeded();
+    await expect(firstProductCard).toBeVisible({ timeout: 10000 });
   }
 
   productCard(name: string) {
