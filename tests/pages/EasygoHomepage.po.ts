@@ -16,15 +16,18 @@ export class EasygoHomepage {
 
   // Navigation methods
   async goto() {
-    await this.page.goto('https://easygo.io/');
-    await this.page.waitForLoadState('domcontentloaded');
-    await this.page.getByRole('article').first().waitFor({ state: 'visible', timeout: 20000 });
+    await this.page.goto('https://easygo.io/', { waitUntil: 'load' });
+    await this.page.waitForSelector('article', { state: 'visible', timeout: 20000 });
   }
 
   async scrollToProductsSection() {
-    const firstProductCard = this.page.getByRole('article').first();
-    await firstProductCard.scrollIntoViewIfNeeded();
-    await expect(firstProductCard).toBeVisible({ timeout: 10000 });
+    await this.page.waitForSelector('article', { state: 'visible', timeout: 20000 });
+    await this.page.evaluate(() => {
+      const firstArticle = document.querySelector('article');
+      if (!firstArticle) throw new Error('Could not find the first product card article.');
+      firstArticle.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'auto' });
+    });
+    await expect(this.page.getByRole('article').first()).toBeVisible({ timeout: 20000 });
   }
 
   productCard(name: string) {
